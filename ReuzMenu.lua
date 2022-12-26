@@ -19,8 +19,8 @@ local dlstatus = require('moonloader').download_status
 
 update_state = false
 
-local script_vers = 2
-local script_vers_text = "1.01"
+local script_vers = 3
+local script_vers_text = "3"
 
 local update_url = "https://raw.githubusercontent.com/Reuz0201/sampik/main/update.ini"
 local update_path = getWorkingDirectory() .. "/update.ini"
