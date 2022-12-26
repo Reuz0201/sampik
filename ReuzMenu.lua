@@ -22,10 +22,10 @@ update_state = false
 local script_vers = 2
 local script_vers_text = "1.01"
 
-local update_url = "https://raw.githubusercontent.com/Reuz0201/sampik/main/update.ini" -- тут тоже свою ссылку
-local update_path = getWorkingDirectory() .. "/update.ini" -- и тут свою ссылку
+local update_url = "https://raw.githubusercontent.com/Reuz0201/sampik/main/update.ini"
+local update_path = getWorkingDirectory() .. "/update.ini"
 
-local script_url = "https://github.com/Reuz0201/sampik/blob/main/ReuzMenu.lua?raw=true" -- тут свою ссылку
+local script_url = "https://github.com/Reuz0201/sampik/blob/main/ReuzMenu.lua?raw=true"
 local script_path = thisScript().path
 
 
@@ -715,9 +715,9 @@ imgui.SetCursorPos(imgui.ImVec2(5, 580))
        end
 
 if page == 6 then
-imgui.Text("Скрипт был успешно обновлён и вот его изменения:")
+imgui.Text(u8"Скрипт был успешно обновлён и вот его изменения:")
 imgui.Text("")
-imgui.Text("Было добавлено автообновление, и также эта страница, а ещё была одна провальная попытка)")
+imgui.Text(u8"Было добавлено автообновление, и также эта страница, а ещё была одна провальная попытка)")
 end
 		imgui.End()
 end
